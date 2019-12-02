@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "description": "other ts",
   "scripts": {
+    "build:declarations": "tsc -d",
+    "build:ts": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Salavat Gizatov <100ishundred@gmail.com> (https://github.com/hextion)",
@@ -13,6 +15,7 @@
     "eslint-plugin-prettier": "^3.1.1",
     "husky": "^3.1.0",
     "lint-staged": "^9.5.0",
-    "prettier": "1.19.1"
+    "prettier": "1.19.1",
+    "typescript": "^3.7.2"
   }
 }
