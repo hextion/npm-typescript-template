@@ -5,6 +5,7 @@
   "scripts": {
     "build:declarations": "tsc -d",
     "build:ts": "tsc",
+    "lint": "eslint --ext .ts --max-warnings 0 src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Salavat Gizatov <100ishundred@gmail.com> (https://github.com/hextion)",
