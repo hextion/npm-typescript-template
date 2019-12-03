@@ -8,6 +8,7 @@
     "lint": "eslint --ext .ts --max-warnings 0 src",
     "lint:fix": "eslint --ext .ts --fix src",
     "format": "prettier --list-different \"**/*.{ts,md,json}\"",
+    "format:fix": "prettier --write \"**/*.{ts,md,json}\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Salavat Gizatov <100ishundred@gmail.com> (https://github.com/hextion)",
