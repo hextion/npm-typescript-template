@@ -3,16 +3,31 @@
     "target": "ESNext",
     "module": "ESNext",
     "lib": ["ES5", "ES6", "DOM"],
+
     "declaration": true,
+    "declarationMap": true,
     "declarationDir": "./types",
+
     "sourceMap": true,
     "removeComments": false,
+
     "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "strictBindCallApply": true,
+    "strictPropertyInitialization": true,
+    "noImplicitThis": true,
+    "alwaysStrict": true,
+
     "noUnusedLocals": true,
     "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+
+    "esModuleInterop": true,
+
     "moduleResolution": "node",
     "baseUrl": "./",
-    "esModuleInterop": true,
     "skipLibCheck": true
   },
   "include": ["src"],
