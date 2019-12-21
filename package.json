@@ -9,16 +9,20 @@
     "format:fix": "prettier --write \"**/*.{js,ts,md,json}\"",
     "lint": "eslint --ext .ts --max-warnings 0 src",
     "lint:fix": "eslint --ext .ts --fix src",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Salavat Gizatov <100ishundred@gmail.com> (https://github.com/hextion)",
   "license": "MIT",
   "devDependencies": {
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-typescript": "^7.7.7",
+    "@types/jest": "^24.0.24",
     "@typescript-eslint/eslint-plugin": "^2.10.0",
     "@typescript-eslint/parser": "^2.10.0",
     "eslint": "^6.7.2",
     "eslint-config-prettier": "^6.7.0",
     "husky": "^3.1.0",
+    "jest": "^24.9.0",
     "lint-staged": "^9.5.0",
     "prettier": "1.19.1",
     "typescript": "^3.7.2"
