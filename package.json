@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "other ts",
   "scripts": {
-    "check:types": "tsc --noEmit",
+    "check-types": "tsc --noEmit",
     "format": "prettier --list-different \"**/*.{js,ts,md,json}\"",
     "format:fix": "prettier --write \"**/*.{js,ts,md,json}\"",
     "lint": "eslint --ext .ts --max-warnings 0 src",
