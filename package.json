@@ -7,7 +7,7 @@
     "format": "prettier --list-different \"**/*.{js,ts,md,json}\"",
     "format:fix": "npm run format -- --write",
     "lint": "eslint --ext .ts --max-warnings 0 src",
-    "lint:fix": "eslint --ext .ts --fix src",
+    "lint:fix": "npm run lint -- --fix",
     "test": "jest"
   },
   "author": "Salavat Gizatov <100ishundred@gmail.com> (https://github.com/hextion)",
