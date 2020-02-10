@@ -5,7 +5,7 @@
   "scripts": {
     "check-types": "tsc --noEmit",
     "format": "prettier --list-different \"**/*.{js,ts,md,json}\"",
-    "format:fix": "prettier --write \"**/*.{js,ts,md,json}\"",
+    "format:fix": "npm run format -- --write",
     "lint": "eslint --ext .ts --max-warnings 0 src",
     "lint:fix": "eslint --ext .ts --fix src",
     "test": "jest"
