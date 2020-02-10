@@ -8,6 +8,7 @@
     "format:fix": "npm run format -- --write",
     "lint": "eslint --ext .ts --max-warnings 0 src",
     "lint:fix": "npm run lint -- --fix",
+    "pretest": "npm run check-types",
     "test": "jest",
     "test:watch": "npm run test -- --watch"
   },
