@@ -1,1 +1,1 @@
-# other-ts
+# npm-typescript-template

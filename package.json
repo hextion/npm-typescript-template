@@ -1,7 +1,7 @@
 {
-  "name": "other-ts",
+  "name": "npm-typescript-template",
   "version": "0.0.1",
-  "description": "other ts",
+  "description": "npm-typescript-template",
   "scripts": {
     "check-types": "tsc --noEmit",
     "format": "prettier --list-different \"**/*.{js,ts,md,json}\"",
