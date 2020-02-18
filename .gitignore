@@ -7,3 +7,7 @@ yarn-error.log*
 
 # dependencies
 /node_modules
+
+# editors
+/.vscode
+/.idea
