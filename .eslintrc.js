@@ -1,9 +1,5 @@
 module.exports = {
   root: true,
-  env: {
-    es6: true,
-    node: true,
-  },
   extends: ["eslint:recommended", "prettier"],
   overrides: [
     {
@@ -23,6 +19,15 @@ module.exports = {
       rules: {
         "@typescript-eslint/array-type": ["error", { default: "generic", readonly: "generic" }],
         "@typescript-eslint/method-signature-style": ["error", "property"],
+      },
+    },
+    // Lint config files, eg: .eslintrc.js, .prettierrc.js, etc.
+    {
+      // eslint-disable-next-line no-useless-escape
+      files: ["**/\.*.js"], // prettier-ignore
+      env: {
+        node: true,
+        es6: true,
       },
     },
   ],
