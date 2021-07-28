@@ -21,10 +21,9 @@ module.exports = {
         "@typescript-eslint/method-signature-style": ["error", "property"],
       },
     },
-    // lint config files, eg: .eslintrc.js, .prettierrc.js, etc.
+    // lint config files, eg: `babel.config.js`, `.eslintrc.js`, `.prettierrc.js`, etc.
     {
-      // eslint-disable-next-line no-useless-escape
-      files: ["**/\.*.js"], // prettier-ignore
+      files: ["**/?(.)*.js"],
       env: {
         node: true,
         es6: true,
