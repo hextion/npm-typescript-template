@@ -17,8 +17,7 @@ module.exports = {
       },
       plugins: ["@typescript-eslint"],
       rules: {
-        "@typescript-eslint/array-type": ["error", { default: "generic", readonly: "generic" }],
-        "@typescript-eslint/method-signature-style": ["error", "property"],
+        "@typescript-eslint/array-type": ["error", { default: "array", readonly: "array" }],
       },
     },
     // lint config files, eg: `babel.config.js`, `.eslintrc.js`, `.prettierrc.js`, etc.
