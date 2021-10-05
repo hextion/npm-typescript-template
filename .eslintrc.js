@@ -25,7 +25,7 @@ module.exports = {
       files: ["**/?(.)*.js"],
       env: {
         node: true,
-        es6: true,
+        es2020: true,
       },
     },
   ],
