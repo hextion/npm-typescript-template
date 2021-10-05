@@ -1,23 +1,18 @@
 {
   "compilerOptions": {
-    "baseUrl": "./",
-    "declaration": true,
-    "declarationDir": "./types",
-    "declarationMap": true,
     "esModuleInterop": true,
-    "lib": ["ES5", "ES6", "DOM"],
+    "lib": ["ES2020"],
     "module": "ESNext",
     "moduleResolution": "node",
+    "target": "ESNext",
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
     "noImplicitReturns": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "removeComments": false,
     "skipLibCheck": true,
-    "sourceMap": true,
-    "strict": true,
-    "target": "ESNext"
+    "strict": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]
