@@ -5,12 +5,12 @@
   "scripts": {
     "check-types": "tsc --noEmit",
     "format": "prettier --check \"**/*.{js,ts,md,json}\"",
-    "format:fix": "npm run format -- --write",
+    "format-fix": "npm run format -- --write",
     "lint": "eslint --ext .js,.ts --max-warnings 0 --no-ignore src",
-    "lint:fix": "npm run lint -- --fix",
+    "lint-fix": "npm run lint -- --fix",
     "pretest": "npm run check-types",
     "test": "jest",
-    "test:watch": "npm run test -- --watch"
+    "test-watch": "npm run test -- --watch"
   },
   "author": "Salavat Gizatov <100ishundred@gmail.com> (https://github.com/hextion)",
   "license": "MIT",
