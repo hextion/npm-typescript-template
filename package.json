@@ -1,24 +1,24 @@
 {
-  "name": "npm-typescript-template",
-  "version": "0.0.1",
-  "description": "npm-typescript-template",
-  "scripts": {
-    "check-types": "tsc --noEmit",
-    "format": "prettier --check \"**/*.{?(c){j,t}s,md,json}\"",
-    "format-fix": "npm run format -- --write",
-    "lint": "eslint --ext .cjs,.js,.ts --max-warnings 0 --no-ignore src",
-    "lint-fix": "npm run lint -- --fix"
-  },
-  "author": "Salavat Gizatov <100ishundred@gmail.com> (https://github.com/hextion)",
-  "license": "MIT",
-  "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.36.2",
-    "@typescript-eslint/parser": "^5.36.2",
-    "eslint": "^8.23.0",
-    "eslint-config-prettier": "^8.5.0",
-    "lint-staged": "^13.0.3",
-    "prettier": "2.7.1",
-    "simple-git-hooks": "^2.8.0",
-    "typescript": "~4.8.2"
-  }
+    "name": "npm-typescript-template",
+    "version": "1.0.0",
+    "description": "npm-typescript-template",
+    "scripts": {
+        "check-types": "tsc --noEmit",
+        "format": "prettier --check \"**/*.{?(c){j,t}s,md,json}\"",
+        "format-fix": "npm run format -- --write",
+        "lint": "eslint --cache --ext .cjs,.js,.ts --max-warnings 0 --no-ignore src",
+        "lint-fix": "npm run lint -- --fix"
+    },
+    "author": "Salavat Gizatov <100ishundred@gmail.com> (https://github.com/hextion)",
+    "license": "MIT",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.36.2",
+        "@typescript-eslint/parser": "^5.36.2",
+        "eslint": "^8.23.0",
+        "eslint-config-prettier": "^8.5.0",
+        "lint-staged": "^13.0.3",
+        "prettier": "2.7.1",
+        "simple-git-hooks": "^2.8.0",
+        "typescript": "~4.8.2"
+    }
 }

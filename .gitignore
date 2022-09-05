@@ -17,3 +17,6 @@ package-lock.json
 
 # os
 .DS_Store
+
+# lint
+.eslintcache
