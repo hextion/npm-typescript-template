@@ -6,11 +6,11 @@ yarn-debug.log*
 yarn-error.log*
 
 # dependencies
-/node_modules
+node_modules/
 
 # editors
-/.vscode
-/.idea
+.vscode/
+.idea/
 
 # lock
 package-lock.json

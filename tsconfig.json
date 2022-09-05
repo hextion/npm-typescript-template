@@ -1,9 +1,9 @@
 {
   "compilerOptions": {
     "esModuleInterop": true,
-    "lib": ["ES2020"],
+    "lib": ["ESNext"],
     "module": "ESNext",
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     "target": "ESNext",
     "noEmitOnError": true,
     "noFallthroughCasesInSwitch": true,
@@ -12,7 +12,11 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "skipLibCheck": true,
-    "strict": true
+    "strict": true,
+    "noImplicitAny": true,
+    "noErrorTruncation": true,
+    "noImplicitThis": true,
+    "noUncheckedIndexedAccess": true
   },
   "include": ["src"],
   "exclude": ["node_modules"]
